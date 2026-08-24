@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ບົດຮຽນທີ່ ໒໘ |  Lesson 28</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<style type="text/css">
+
+button {
+	     font-size: xx-large;
+       }
+	   
+footer{
+    padding: 3px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: blue;
+    text-align: center;
+}
+</style>
+
+<script>
+    var bleep = new Audio();
+    var bleep2 = new Audio();
+    var bleep3 = new Audio();
+	var bleep4 = new Audio();
+    var bleep5 = new Audio();
+    var bleep6 = new Audio();
+    var bleep7 = new Audio();
+    var bleep8 = new Audio();
+    var bleep9 = new Audio();
+    var bleep10 = new Audio();
+    var bleep11 = new Audio();
+    var bleep12 = new Audio();
+	var bleep13 = new Audio();
+	var bleep14 = new Audio();
+    var bleep15 = new Audio();
+    var bleep16 = new Audio();
+	var bleep17 = new Audio();
+    var bleep18 = new Audio();
+    var bleep19 = new Audio();
+    var bleep20 = new Audio();
+    var bleep21 = new Audio();
+    var bleep22 = new Audio();
+    var bleep23 = new Audio();
+    var bleep24 = new Audio();
+    var bleep25 = new Audio();
+	var bleep26 = new Audio();
+    var bleep27 = new Audio();
+    var bleep28 = new Audio();
+    var bleep29 = new Audio();
+	var bleep30 = new Audio();
+    var bleep31 = new Audio();
+    var bleep32 = new Audio();
+    var bleep33 = new Audio();
+    var bleep34 = new Audio();
+    var bleep35 = new Audio();
+    var bleep36 = new Audio();
+    var bleep37 = new Audio();
+    var bleep38 = new Audio();
+	var bleep39 = new Audio();
+	var bleep40 = new Audio();
+    var bleep41 = new Audio();
+    var bleep42 = new Audio();
+	var bleep43 = new Audio();
+    var bleep44 = new Audio();
+    var bleep45 = new Audio();
+    var bleep46 = new Audio();
+    var bleep47 = new Audio();
+    var bleep48 = new Audio();
+    var bleep49 = new Audio();
+    var bleep50 = new Audio();
+    var bleep51 = new Audio();
+	var bleep52 = new Audio();	
+	var bleep53 = new Audio();
+	var bleep54 = new Audio();
+	var bleep55 = new Audio();
+    var bleep56 = new Audio();
+	var bleep57 = new Audio();
+	var bleep58 = new Audio();
+	var bleep59 = new Audio();
+    var bleep60 = new Audio();
+
+    bleep.src = "../audio/ByLSL/LSL28/ເວລາ.mp3";
+    bleep2.src = "../audio/ByLSL/LSL28/time.mp3";
+    bleep3.src = "../audio/ByLSL/LSL28/ປັດຈຸບັນ.mp3";
+    bleep4.src = "../audio/ByLSL/LSL28/moment.mp3";
+    bleep5.src = "../audio/ByLSL/LSL28/ນຶ່ງຊ່ວນພັນຂອງວິນາທີ.mp3";
+    bleep6.src = "../audio/ByLSL/LSL28/millisecond.mp3";
+	bleep7.src = "../audio/ByLSL/LSL28/ວິນາທີ.mp3";
+    bleep8.src = "../audio/ByLSL/LSL28/second.mp3";
+    bleep9.src = "../audio/ByLSL/LSL28/ນາທີ.mp3";
+	bleep10.src = "../audio/ByLSL/LSL28/minute.mp3";
+    bleep11.src = "../audio/ByLSL/LSL28/ຊົ່ວໂມງ.mp3";
+    bleep12.src = "../audio/ByLSL/LSL28/hour.mp3";
+	bleep13.src = "../audio/ByLSL/LSL28/ວັນ.mp3";
+    bleep14.src = "../audio/ByLSL/LSL28/day.mp3";
+    bleep15.src = "../audio/ByLSL/LSL28/ອາທິດ.mp3";
+    bleep16.src = "../audio/ByLSL/LSL28/week.mp3";
+    bleep17.src = "../audio/ByLSL/LSL28/ເດືອນ.mp3";
+    bleep18.src = "../audio/ByLSL/LSL28/month.mp3";
+    bleep19.src = "../audio/ByLSL/LSL28/ໄຕຣມາດ.mp3";
+	bleep20.src = "../audio/ByLSL/LSL28/quarter.mp3";
+    bleep21.src = "../audio/ByLSL/LSL28/ປີ.mp3";
+    bleep22.src = "../audio/ByLSL/LSL28/year.mp3";
+	bleep23.src = "../audio/ByLSL/LSL28/ຮອບສິບປີ.mp3";
+    bleep24.src = "../audio/ByLSL/LSL28/decade.mp3";
+    bleep25.src = "../audio/ByLSL/LSL28/ຮອບຮ້ອຍປີ.mp3";
+	bleep26.src = "../audio/ByLSL/LSL28/century.mp3";
+    bleep27.src = "../audio/ByLSL/LSL28/ຮອບພັນປີ.mp3";
+    bleep28.src = "../audio/ByLSL/LSL28/millennium.mp3";
+    bleep29.src = "../audio/ByLSL/LSL28/ຊົ່ວນິຣັນດອນ.mp3";
+    bleep30.src = "../audio/ByLSL/LSL28/eternity.mp3";
+    bleep31.src = "../audio/ByLSL/LSL28/ກາງຄືນ.mp3";
+    bleep32.src = "../audio/ByLSL/LSL28/night.mp3";
+	bleep33.src = "../audio/ByLSL/LSL28/ຕອນແລງ.mp3";
+    bleep34.src = "../audio/ByLSL/LSL28/evening.mp3";
+    bleep35.src = "../audio/ByLSL/LSL28/ຕອນເຊົ້າ.mp3";
+	bleep36.src = "../audio/ByLSL/LSL28/morning.mp3";
+    bleep37.src = "../audio/ByLSL/LSL28/ມື້ວານນິ້.mp3";
+    bleep38.src = "../audio/ByLSL/LSL28/yesterday.mp3";
+	bleep39.src = "../audio/ByLSL/LSL28/ຕອນທ່ຽງ.mp3";
+    bleep40.src = "../audio/ByLSL/LSL28/noon.mp3";
+    bleep41.src = "../audio/ByLSL/LSL28/ຕອນບ່າຍ.mp3";
+    bleep42.src = "../audio/ByLSL/LSL28/afternoon.mp3";
+    bleep43.src = "../audio/ByLSL/LSL28/ຕອນທ່ຽງຄືນ.mp3";
+    bleep44.src = "../audio/ByLSL/LSL28/midnight.mp3";
+    bleep45.src = "../audio/ByLSL/LSL28/ມື້ອື່ນ.mp3";
+	bleep46.src = "../audio/ByLSL/LSL28/tomorrow.mp3";
+    bleep47.src = "../audio/ByLSL/LSL28/ຫລັງຈາກ.mp3";
+    bleep48.src = "../audio/ByLSL/LSL28/after.mp3";
+	bleep49.src = "../audio/ByLSL/LSL28/ຫລັງຈາກນັ້ນ.mp3";
+    bleep50.src = "../audio/ByLSL/LSL28/afterwards.mp3";
+    bleep51.src = "../audio/ByLSL/LSL28/ຮຽບຮ້ອຍ.mp3";
+	bleep52.src = "../audio/ByLSL/LSL28/already.mp3";
+    bleep53.src = "../audio/ByLSL/LSL28/ກ່ອນ.mp3";
+	bleep54.src = "../audio/ByLSL/LSL28/before.mp3";
+    bleep55.src = "../audio/ByLSL/LSL28/ຊົ່ວເວລາ.mp3";
+    bleep56.src = "../audio/ByLSL/LSL28/during.mp3";
+	bleep57.src = "../audio/ByLSL/LSL28/ຈົນກ່ວາ.mp3";
+    bleep58.src = "../audio/ByLSL/LSL28/until.mp3";
+	bleep59.src = "../audio/ByLSL/LSL28/ຂະນະທີ່.mp3";
+    bleep60.src = "../audio/ByLSL/LSL28/while.mp3";
+	
+    function loadContent(num) {
+        bleep.play();
+    }
+    
+    function loadContent2(num) {
+        bleep2.play();
+    }
+    
+    function loadContent3(num) {
+        bleep3.play();
+    }
+    
+	function loadContent4(num) {
+        bleep4.play();
+    }
+    
+    function loadContent5(num) {
+        bleep5.play();
+    }
+    
+    function loadContent6(num) {
+        bleep6.play();
+    }
+      function loadContent7(num) {
+        bleep7.play();
+    }
+    
+    function loadContent8(num) {
+        bleep8.play();
+    }
+    
+    function loadContent9(num) {
+        bleep9.play();
+    }
+      function loadContent10(num) {
+        bleep10.play();
+    }
+    
+    function loadContent11(num) {
+        bleep11.play();
+    }
+    
+    function loadContent12(num) {
+        bleep12.play();
+    }
+	
+    function loadContent13(num) {
+        bleep13.play();
+    }
+	
+	function loadContent14(num) {
+        bleep14.play();
+    }
+    
+    function loadContent15(num) {
+        bleep15.play();
+    }
+    
+    function loadContent16(num) {
+        bleep16.play();
+    }
+    
+	function loadContent17(num) {
+        bleep17.play();
+    }
+    
+    function loadContent18(num) {
+        bleep18.play();
+    }
+    
+    function loadContent19(num) {
+        bleep19.play();
+    }
+    function loadContent20(num) {
+        bleep20.play();
+    }
+    
+    function loadContent21(num) {
+        bleep21.play();
+    }
+    
+    function loadContent22(num) {
+        bleep22.play();
+    }
+      function loadContent23(num) {
+        bleep23.play();
+    }
+    
+    function loadContent24(num) {
+        bleep24.play();
+    }
+    
+    function loadContent25(num) {
+        bleep25.play();
+    }
+	
+    function loadContent26(num) {
+        bleep26.play();
+    }
+	
+	function loadContent27(num) {
+        bleep27.play();
+    }
+    
+    function loadContent28(num) {
+        bleep28.play();
+    }
+    
+    function loadContent29(num) {
+        bleep29.play();
+    }
+    
+	function loadContent30(num) {
+        bleep30.play();
+    }
+    
+    function loadContent31(num) {
+        bleep31.play();
+    }
+    
+    function loadContent32(num) {
+        bleep32.play();
+    }
+    function loadContent33(num) {
+        bleep33.play();
+    }
+    
+    function loadContent34(num) {
+        bleep34.play();
+    }
+    
+    function loadContent35(num) {
+        bleep35.play();
+    }
+    function loadContent36(num) {
+        bleep36.play();
+    }
+    
+    function loadContent37(num) {
+        bleep37.play();
+    }
+    
+    function loadContent38(num) {
+        bleep38.play();
+    }
+	
+    function loadContent39(num) {
+        bleep39.play();
+    }
+	
+	function loadContent40(num) {
+        bleep40.play();
+    }
+    
+    function loadContent41(num) {
+        bleep41.play();
+    }
+    
+    function loadContent42(num) {
+        bleep42.play();
+    }
+    
+	function loadContent43(num) {
+        bleep43.play();
+    }
+    
+    function loadContent44(num) {
+        bleep44.play();
+    }
+    
+    function loadContent45(num) {
+        bleep45.play();
+    }
+    function loadContent46(num) {
+        bleep46.play();
+    }
+    
+    function loadContent47(num) {
+        bleep47.play();
+    }
+    
+    function loadContent48(num) {
+        bleep48.play();
+    }
+    function loadContent49(num) {
+        bleep49.play();
+    }
+    
+    function loadContent50(num) {
+        bleep50.play();
+    }
+    
+    function loadContent51(num) {
+        bleep51.play();
+    }
+	
+    function loadContent52(num) {
+        bleep52.play();
+    }
+	
+	function loadContent53(num) {
+        bleep53.play();
+    }
+    
+    function loadContent54(num) {
+        bleep54.play();
+    }
+    
+    function loadContent55(num) {
+        bleep55.play();
+    }
+	
+    function loadContent56(num) {
+        bleep56.play();
+    }
+	
+	function loadContent57(num) {
+        bleep57.play();
+    }
+    
+    function loadContent58(num) {
+        bleep58.play();
+    }
+    
+	function loadContent59(num) {
+        bleep59.play();
+    }
+    
+    function loadContent60(num) {
+        bleep60.play();
+    }
+  
+</script>
+
+</head>
+<body>
+
+<div class="container-fluid p-4 bg-primary text-white text-center">
+  <h2>Lasaath Learning Center</h2>
+  <p><b>ຮຽນພາສາລາວ</b> | Learn Lao Language</p> 
+</div>
+  
+<div class="container mt-3 text-center">
+  <h6><u><b>ບົດຮຽນທີ່ ໒໘</b> | Lesson 28</u></h6>
+  <br>
+<!--  <p>The .img-thumbnail class creates a thumbnail of the image:</p>  -->          
+  <img src="../img2/lsl28.png" class="img-thumbnail" alt="Cinque Terre" width="250" height="200"> 
+</div>
+<br>
+
+<div class="container mt-3">
+  <!--<h2>Button Sizes</h2> -->
+    <center>
+	  <button onclick="loadContent(1)" type="button" class="btn btn-outline-primary btn-sm"><b>ເວລາ</b></button>
+
+  <button onclick="loadContent2(2)" type="button" class="btn btn-outline-primary btn-sm"><b>time</b></button>
+  <b>||</b>
+  	  <button onclick="loadContent3(3)" type="button" class="btn btn-outline-primary btn-sm"><b>ປັດຈຸບັນ</b></button>
+
+  <button onclick="loadContent4(4)" type="button" class="btn btn-outline-primary btn-sm"><b>moment</b></button>
+   </center>
+</div>  
+
+<!--
+<div class="container mt-3">
+
+    <center>
+	  <button onclick="loadContent3(3)" type="button" class="btn btn-outline-primary btn-sm"><b>ປັດຈຸບັນ</b></button>
+
+  <button onclick="loadContent4(4)" type="button" class="btn btn-outline-primary btn-sm"><b>moment</b></button>
+   </center>
+</div>  
+//-->
+
+<div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent5(5)" type="button" class="btn btn-outline-primary"><b>ນຶ່ງຊ່ວນພັນຂອງວິນາທີ</b></button>
+  <button onclick="loadContent6(6)" type="button" class="btn btn-outline-secondary"><b>millisecond</b></button>
+
+  <center>
+  </div>
+  
+  <div class="container mt-3">
+ 
+  <center>
+  <button onclick="loadContent7(7)" type="button" class="btn btn-outline-success"><b>ວິນາທີ</b></button>
+  <button onclick="loadContent8(8)" type="button" class="btn btn-outline-success"><b>second</b></button>
+  
+  <b>||</b>
+  
+    <button onclick="loadContent9(9)" type="button" class="btn btn-outline-success"><b>ນາທີ</b></button>
+  <button onclick="loadContent10(10)" type="button" class="btn btn-outline-primary"><b>minute</b></button>
+  </center>
+  </div>
+ <!-- 
+  <div class="container mt-3">
+
+  <center>
+  <button onclick="loadContent9(9)" type="button" class="btn btn-outline-success"><b>ນາທີ</b></button>
+  <button onclick="loadContent10(10)" type="button" class="btn btn-outline-primary"><b>minute</b></button>
+  
+  -->
+  </center>
+</div>
+
+
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent11(11)" type="button" class="btn btn-outline-success"><b>ຊົ່ວໂມງ</b></button>
+  <button onclick="loadContent12(12)" type="button" class="btn btn-outline-danger"><b>hour</b></button>
+  <b>||</b>
+    <button onclick="loadContent13(13)" type="button" class="btn btn-outline-primary"><b>ວັນ</b></button>
+  <button onclick="loadContent14(14)" type="button" class="btn btn-outline-secondary"><b>day</b></button>
+  
+  </center>
+</div>
+
+<!--
+<div class="container mt-3">
+
+  <center>
+  <button onclick="loadContent13(13)" type="button" class="btn btn-outline-primary"><b>ວັນ</b></button>
+  <button onclick="loadContent14(14)" type="button" class="btn btn-outline-secondary"><b>day</b></button>
+  <center>
+  </div>
+  -->
+  
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent15(15)" type="button" class="btn btn-outline-success"><b>ອາທິດ</b></button>
+  <button onclick="loadContent16(16)" type="button" class="btn btn-outline-success"><b>week</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent17(17)" type="button" class="btn btn-outline-success"><b>ເດືອນ</b></button>
+  <button onclick="loadContent18(18)" type="button" class="btn btn-outline-primary"><b>month</b></button>
+  
+  </center>
+  </div>
+  
+  <!--
+  <div class="container mt-3">
+
+  <center>
+  <button onclick="loadContent17(17)" type="button" class="btn btn-outline-success"><b>ເດືອນ</b></button>
+  <button onclick="loadContent18(18)" type="button" class="btn btn-outline-primary"><b>month</b></button>
+  </center>
+</div>
+-->
+
+<div class="container mt-3">
+  <!--<h2>Button Sizes</h2> -->
+    <center>
+	  <button onclick="loadContent19(19)" type="button" class="btn btn-outline-primary btn-sm"><b>ໄຕຣມາດ</b></button>
+
+  <button onclick="loadContent20(20)" type="button" class="btn btn-outline-primary btn-sm"><b>quarter</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent21(21)" type="button" class="btn btn-outline-primary"><b>ປີ</b></button>
+  <button onclick="loadContent22(22)" type="button" class="btn btn-outline-secondary"><b>year</b></button>
+  
+   </center>
+</div>  
+
+<!--
+<div class="container mt-3">
+  <h2>Button Outline</h2>
+  <center>
+  <button onclick="loadContent21(21)" type="button" class="btn btn-outline-primary"><b>ປີ</b></button>
+  <button onclick="loadContent22(22)" type="button" class="btn btn-outline-secondary"><b>year</b></button>
+  <center>
+  </div>
+  -->
+  
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent23(23)" type="button" class="btn btn-outline-success"><b>ຮອບສິບປີ</b></button>
+  <button onclick="loadContent24(24)" type="button" class="btn btn-outline-success"><b>decade</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent25(25)" type="button" class="btn btn-outline-success"><b>ຮອບຮ້ອຍປີ</b></button>
+  <button onclick="loadContent26(26)" type="button" class="btn btn-outline-primary"><b>century</b></button>
+  
+  </center>
+  </div>
+  
+  <!--
+  <div class="container mt-3">
+
+  <center>
+  <button onclick="loadContent25(25)" type="button" class="btn btn-outline-success"><b>ຮອບຮ້ອຍປີ</b></button>
+  <button onclick="loadContent26(26)" type="button" class="btn btn-outline-primary"><b>century</b></button>
+  </center>
+</div>
+-->
+
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent27(27)" type="button" class="btn btn-outline-success"><b>ຮອບພັນປີ</b></button>
+  <button onclick="loadContent28(28)" type="button" class="btn btn-outline-danger"><b>millennium</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent29(29)" type="button" class="btn btn-outline-primary"><b>ຊົ່ວນິຣັນດອນ</b></button>
+  <button onclick="loadContent30(30)" type="button" class="btn btn-outline-secondary"><b>eternity</b></button>
+  </center>
+</div>
+
+<!--
+<div class="container mt-3">
+  <h2>Button Outline</h2>
+  <center>
+  <button onclick="loadContent29(29)" type="button" class="btn btn-outline-primary"><b>ຊົ່ວນິຣັນດອນ</b></button>
+  <button onclick="loadContent30(30)" type="button" class="btn btn-outline-secondary"><b>eternity</b></button>
+  <center>
+  </div>
+  -->
+  
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent31(31)" type="button" class="btn btn-outline-success"><b>ກາງຄືນ</b></button>
+  <button onclick="loadContent32(32)" type="button" class="btn btn-outline-success"><b>night</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent33(33)" type="button" class="btn btn-outline-success"><b>ຕອນແລງ</b></button>
+  <button onclick="loadContent34(34)" type="button" class="btn btn-outline-primary"><b>evening</b></button>
+  
+  </center>
+  </div>
+  
+  <!--
+  <div class="container mt-3">
+
+  <center>
+  <button onclick="loadContent33(33)" type="button" class="btn btn-outline-success"><b>ຕອນແລງ</b></button>
+  <button onclick="loadContent34(34)" type="button" class="btn btn-outline-primary"><b>evening</b></button>
+  </center>
+</div>
+-->
+  
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent35(35)" type="button" class="btn btn-outline-success"><b>ຕອນເຊົ້າ</b></button>
+  <button onclick="loadContent36(36)" type="button" class="btn btn-outline-primary"><b>morning</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent37(37)" type="button" class="btn btn-outline-success"><b>ມື້ວານນິ້</b></button>
+  <button onclick="loadContent38(38)" type="button" class="btn btn-outline-danger"><b>yesterday</b></button>
+  
+  </center>
+</div>
+
+<!--
+  <div class="container mt-3">
+  <center>
+  <button onclick="loadContent37(37)" type="button" class="btn btn-outline-success"><b>ມື້ວານນິ້</b></button>
+  <button onclick="loadContent38(38)" type="button" class="btn btn-outline-danger"><b>yesterday</b></button>
+  </center>
+</div>
+-->
+
+<div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent39(39)" type="button" class="btn btn-outline-primary"><b>ຕອນທ່ຽງ</b></button>
+  <button onclick="loadContent40(40)" type="button" class="btn btn-outline-secondary"><b>noon</b></button>
+  <b>||</b>
+  
+   <button onclick="loadContent41(41)" type="button" class="btn btn-outline-success"><b>ຕອນບ່າຍ</b></button>
+  <button onclick="loadContent42(42)" type="button" class="btn btn-outline-success"><b>afternoon</b></button>
+  
+  <center>
+  </div>
+  
+  <!--
+  <div class="container mt-3">
+ 
+  <center>
+  <button onclick="loadContent41(41)" type="button" class="btn btn-outline-success"><b>ຕອນບ່າຍ</b></button>
+  <button onclick="loadContent42(42)" type="button" class="btn btn-outline-success"><b>afternoon</b></button>
+  </center>
+  </div>
+  -->
+  
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent43(43)" type="button" class="btn btn-outline-success"><b>ຕອນທ່ຽງຄືນ</b></button>
+  <button onclick="loadContent44(44)" type="button" class="btn btn-outline-primary"><b>midnight</b></button>
+  
+  <b>||</b>
+  	  <button onclick="loadContent45(45)" type="button" class="btn btn-outline-primary btn-sm"><b>ມື້ອື່ນ</b></button>
+
+  <button onclick="loadContent46(46)" type="button" class="btn btn-outline-primary btn-sm"><b>tomorrow</b></button>
+  </center>
+</div>
+
+<!--
+<div class="container mt-3">
+  <h2>Button Sizes</h2> 
+    <center>
+	  <button onclick="loadContent45(45)" type="button" class="btn btn-outline-primary btn-sm"><b>ມື້ອື່ນ</b></button>
+
+  <button onclick="loadContent46(46)" type="button" class="btn btn-outline-primary btn-sm"><b>tomorrow</b></button>
+   </center>
+</div>  
+-->
+
+<div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent47(47)" type="button" class="btn btn-outline-primary"><b>ຫລັງຈາກ</b></button>
+  <button onclick="loadContent48(48)" type="button" class="btn btn-outline-secondary"><b>after</b></button>
+  <b>||</b>
+  
+   <button onclick="loadContent49(49)" type="button" class="btn btn-outline-success"><b>ຫລັງຈາກນັ້ນ</b></button>
+  <button onclick="loadContent50(50)" type="button" class="btn btn-outline-success"><b>afterwards</b></button>
+  
+  <center>
+  </div>
+  
+  <!--
+  <div class="container mt-3">
+  <h2>Button Outline</h2>
+  <center>
+  <button onclick="loadContent49(49)" type="button" class="btn btn-outline-success"><b>ຫລັງຈາກນັ້ນ</b></button>
+  <button onclick="loadContent50(50)" type="button" class="btn btn-outline-success"><b>afterwards</b></button>
+  </center>
+  </div>
+  -->
+  
+  <div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent51(51)" type="button" class="btn btn-outline-success"><b>ຮຽບຮ້ອຍ</b></button>
+  <button onclick="loadContent52(52)" type="button" class="btn btn-outline-primary"><b>already</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent53(53)" type="button" class="btn btn-outline-success"><b>ກ່ອນ</b></button>
+  <button onclick="loadContent54(54)" type="button" class="btn btn-outline-danger"><b>before</b></button>
+  
+  </center>
+</div>
+
+<!--
+  <div class="container mt-3">
+  <h2>Button Outline</h2>
+  <center>
+  <button onclick="loadContent53(53)" type="button" class="btn btn-outline-success"><b>ກ່ອນ</b></button>
+  <button onclick="loadContent54(54)" type="button" class="btn btn-outline-danger"><b>before</b></button>
+  </center>
+</div>
+-->
+
+<div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent55(55)" type="button" class="btn btn-outline-primary"><b>ຊົ່ວເວລາ</b></button>
+  <button onclick="loadContent56(56)" type="button" class="btn btn-outline-secondary"><b>during</b></button>
+  <b>||</b>
+  
+    <button onclick="loadContent57(57)" type="button" class="btn btn-outline-success"><b>ຈົນກ່ວາ</b></button>
+  <button onclick="loadContent58(58)" type="button" class="btn btn-outline-danger"><b>until</b></button>
+  <center>
+  </div>
+  
+  <!--
+   <div class="container mt-3">
+ 
+  <center>
+  <button onclick="loadContent57(57)" type="button" class="btn btn-outline-success"><b>ຈົນກ່ວາ</b></button>
+  <button onclick="loadContent58(58)" type="button" class="btn btn-outline-danger"><b>until</b></button>
+  </center>
+</div>
+-->
+
+<div class="container mt-3">
+  <!--<h2>Button Outline</h2>-->
+  <center>
+  <button onclick="loadContent59(59)" type="button" class="btn btn-outline-primary"><b>ຂະນະທີ່</b></button>
+  <button onclick="loadContent60(60)" type="button" class="btn btn-outline-secondary"><b>while</b></button>
+  <center>
+  </div>
+  
+  
+<br>
+<div class="container mt-3">
+  <!--<h2>Button Sizes</h2> -->
+  <center>
+  <a href="../learnlsl.html">
+	<button type="button" class="btn btn-danger btn-sm">Go Home</button>
+  </a>
+  
+  <a href="lsl27.html">
+    <button type="button" class="btn btn-success btn-sm">Lesson 27</button>  
+  </a>  
+  
+    <a href="lsl29.html">
+    <button type="button" class="btn btn-success btn-sm">Lesson 29</button>  
+  </a>  
+<!--  <button type="button" class="btn btn-primary btn-sm"> ປາ </button> -->
+
+</center>
+</div>
+</body>
+<footer>
+  <p>Lasaath Learning Center, Copyright &copy; <script>document.write( new Date().getFullYear() );</script></p>
+</footer>
+</html>
